@@ -1,0 +1,23 @@
+nav{
+	display:flex;
+	flex:1;
+	background-color:rgb(72, 188, 255);
+	width:100%;
+}
+
+nav .btn{
+  color:white;
+  margin:0 10px 0 10px;
+  display:inline-block;
+  width:20%;
+  text-align:bottom;
+}
+
+nav .btn:hover{
+	filter:blur(1px);
+	filter:contrast(50%);
+	filter: drop-shadow(8px 8px 10px rgb(68, 102, 255));
+	border-color:white;
+	border-style:solid;
+	border-width:2px;
+}
